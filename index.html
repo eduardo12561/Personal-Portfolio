@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eduardo Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animation.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" 
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" rel="stylesheet"
     integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
@@ -13,9 +16,6 @@
 </head>
 <body>
     <header>
-        <div class="logo">
-            <img src="" class="logo-icon" alt="">
-        </div>
         <button class="nav-toggle" aria-label=""toggle navigation>
             <span class="hamburger"></span>
         </button>
@@ -40,25 +40,27 @@
 
     <!-- Meus Projetos -->
     <section class="my-services" id="services">
-        <h2 class="section__title section__title--services">What i do</h2>
+        <h2 class="section__title section__title--services">Tecnologias</h2>
         <div class="services">
             <div class="service">
-                <h3>Development</h3>
+                <h3>HTML5 / CSS</h3>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas, obcaecati repellat similique ea ab assumenda
                  expedita voluptates fugit officiis cupiditate mollitia commodi odit magni quam nesciunt atque velit illum nemo.</p>
             </div> <!-- Service -->
 
             <div class="service">
-                <h3>E-commerce</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam autem minima quaerat ipsa illo illum modi consequatur 
-                recusandae hic iure id soluta quibusdam magni sapiente molestias, totam repellat corrupti! Ex.</p>
-            </div> <!-- Service -->
-
-            <div class="service">
-                <h3>WordPress</h3>
+                <h3>JavaScript</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, repellat! Suscipit numquam possimus tempore fuga quod rem,
                  architecto voluptates omnis ab ullam alias itaque commodi aspernatur accusamus cupiditate consequatur eius.</p>
             </div> <!-- Service -->
+
+            <div class="service">
+                <h3>Bootstrap</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, repellat! Suscipit numquam possimus tempore fuga quod rem,
+                 architecto voluptates omnis ab ullam alias itaque commodi aspernatur accusamus cupiditate consequatur eius.</p>
+            </div> <!-- Service -->
+
+           
         </div> <!-- Services -->
 
         <a href="#work" class="btn">My Work</a>
@@ -80,48 +82,63 @@
 
     <!-- My Work -->
     <section class="my-work" id="work">
-        <h2 class="section__title">My work</h2>
-        <p class="section__subtitle"></p>
+        <h2 class="section__title section__title--work">Projetos Pessoais</h2>
+        <p class="section__subtitle  section__subtitle--work">Projetos com foco em adquirir conhecimento</p>
 
         <div class="portfolio">
             <!-- Portfolio item 01 -->
-            <a href="#" class="portfolio__item">
-                <img src="" alt="portfolio" class="portfolio__img">
+            <a href="https://eduardo12561.github.io/JS-CRUD/" target="blank" class="portfolio__item">
+                <img src="assets/project1-picture.png" alt="portfolio" class="portfolio__img">
             </a>
 
               <!-- Portfolio item 02 -->
-              <a href="#" class="portfolio__item">
-                <img src="" alt="portfolio" class="portfolio__img">
+              <a href="https://eduardo12561.github.io/Product-Card/" target="blank" class="portfolio__item">
+                <img src="assets/project2-picutre.png" alt="portfolio" class="portfolio__img">
             </a>
 
               <!-- Portfolio item 03 -->
-              <a href="#" class="portfolio__item">
-                <img src="" alt="portfolio" class="portfolio__img">
+              <a href="https://eduardo12561.github.io/DragAndDrop-JavaScript/" target="blank" class="portfolio__item">
+                <img src="assets/project3-picture.png" alt="portfolio" class="portfolio__img">
             </a>
 
               <!-- Portfolio item 04 -->
-              <a href="#" class="portfolio__item">
-                <img src="" alt="portfolio" class="portfolio__img">
+              <a href="https://eduardo12561.github.io/PasswordGenerator/" target="blank" class="portfolio__item">
+                <img src="assets/project4-picture.png" alt="portfolio" class="portfolio__img">
             </a>
 
-              <!-- Portfolio item 05 -->
-              <a href="#" class="portfolio__item">
-                <img src="" alt="portfolio" class="portfolio__img">
-            </a>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer>
-        <a href="mailto:pontes.cisa@gmail.com" class="footer__link">pontes.cisa@gmail.com</a>
+    <footer class="footer">
+        <a href="mailto:pontes.cisa@gmail.com" class="footer__link">Entre em contato comigo 😀</a>
         <ul class="social-list">
-            <li class="social-list__item"><a class="social-list__link" href=""></a>a</li> <!--Colocar links de redes sociais-->
-            <li class="social-list__item"><a class="social-list__link" href=""></a>b</li>
-            <li class="social-list__item"><a class="social-list__link" href=""></a>c</li>
-            <li class="social-list__item"><a class="social-list__link" href=""></a>d</li>
+            <li class="social-list__item">
+                <a class="social-list__link"></a>
+                <a href="https://github.com/eduardo12561" target="blank"> <i class="fa-brands fa-github"></i></a>
+                
+            </li> 
+            <li class="social-list__item">
+                <a class="social-list__link" href=""></a>
+                <a href="https://www.instagram.com/eduardopontesb/" target="blank"> <i class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href=""></a>
+                <a href="https://www.linkedin.com/in/eduardo-breda-528ab8209/" target="blank"> <i class="fa-brands fa-linkedin"></i></a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href=""></a>
+                <a href="https://wa.me/5519988990383" target="blank"> <i class="fa-brands fa-whatsapp"></i></a>
+            </li>
+            
+            <li class="social-list__item">
+                <a class="social-list__link" href=""></a>
+                <a href="mailto:pontes.cisa@gmail.com?subject=Hello%20again"><i class="fa-solid fa-envelope"></i></a>
+            </li>
         </ul>
     </footer>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
