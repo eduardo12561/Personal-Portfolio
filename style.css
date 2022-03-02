@@ -99,6 +99,14 @@ strong {
     
 }
 
+@media (min-width: 400px) {
+    .btn--download {
+        text-align: center;
+        margin-bottom: 25px;
+        margin-left: 72.5px;
+        display: inline-block;
+    }
+}
 
 .btn:hover {
     transform: scale(1.1);
